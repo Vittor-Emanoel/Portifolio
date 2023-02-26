@@ -6,6 +6,9 @@ import {
   PresentationHello,
 } from './styles'
 
+import image from '../../assets/image.svg'
+import { Social } from '../socials'
+
 export function Presentation() {
   return (
     <PresentationContainer>
@@ -20,7 +23,9 @@ export function Presentation() {
         I am a JavaScript web developer
       </PresentationDescription>
 
-      <img src="" alt="" />
+      <img src={image} alt="" />
+
+      <Social />
     </PresentationContainer>
   )
 }
