@@ -1,4 +1,4 @@
-const theme = {
+export const theme = {
   primary: '#333333',
   secondary: '939596',
   gradiente:
